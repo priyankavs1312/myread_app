@@ -4,7 +4,7 @@ import { Component } from 'react';
 class Book extends Component {
     render() {
         return (
-            <li key={this.props.title}>
+            <li key={this.props.id}>
             {this.props.title}
                 <div className="book">
                     <div className="book-top">
